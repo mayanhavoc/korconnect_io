@@ -17,7 +17,7 @@ const App = () => {
         {
           headers: {
             token,
-            "api_key": "jlSE9hwj237w4SczihD2049pJACJu6HF8CNH4z5R",
+            "api_key": "",
           },
         }
       )
@@ -40,7 +40,7 @@ const App = () => {
       .get("https://chova32n.korconnect.io/GIPHY/v1/gifs/random", {
         headers: {
           token,
-          "api_key": "jlSE9hwj237w4SczihD2049pJACJu6HF8CNH4z5R",
+          "api_key": "",
         },
       })
       .then((response) => {
